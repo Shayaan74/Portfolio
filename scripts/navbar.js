@@ -28,3 +28,21 @@ window.addEventListener('scroll', () => {
     }
   });
 });
+
+const menuToggle = document.getElementById('menu-toggle');
+const mobileMenu = document.getElementById('mobile-menu');
+const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+menuToggle.addEventListener('click', () => {
+
+  mobileMenu.classList.toggle('hidden');
+  mobileMenu.classList.toggle('flex');
+
+});
+
+mobileNavLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    mobileMenu.classList.add('hidden');
+    mobileMenu.classList.remove('flex');
+  });
+});
