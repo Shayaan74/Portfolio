@@ -1,7 +1,7 @@
 const typedText = document.getElementById('typed-text');
 const words=[
   'Computer Science Student',
-  'Front End Developer',
+  'Developer',
   'Problem Solver',
   'Code Enthusiast',
 ];
