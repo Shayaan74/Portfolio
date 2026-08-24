@@ -16,3 +16,6 @@
 
 ## 📬 Contact
 Feel free to reach out via the contact form on the site!
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
